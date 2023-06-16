@@ -15,7 +15,7 @@ pipeline {
 
             steps {
 
-                sh "changes made by QA"
+                echo "changes made by QA"
                 }
 
                         }
@@ -25,7 +25,7 @@ pipeline {
 
                 steps {
 
-                sh "stage changed by QA"
+                echo "stage changed by QA"
                     }
 
                         }
@@ -35,7 +35,7 @@ pipeline {
 
                 steps {
 
-                sh "QA is done for the day"
+                echo "QA is done for the day"
 
                     }
 
