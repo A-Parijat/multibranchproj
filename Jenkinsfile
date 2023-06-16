@@ -11,21 +11,21 @@ pipeline {
 
     stages {
 
-        stage('stage1') {
+        stage('QA1') {
 
             steps {
 
-                sh "echo all this is master branch"
+                sh "changes made by QA"
                 }
 
                         }
 
 
-        stage('stage2') {
+        stage('QA2') {
 
                 steps {
 
-                sh "echo all this is master branch"
+                sh "stage changed by QA"
                     }
 
                         }
@@ -35,7 +35,7 @@ pipeline {
 
                 steps {
 
-                sh "echo all this is master branch"
+                sh "QA is done for the day"
 
                     }
 
